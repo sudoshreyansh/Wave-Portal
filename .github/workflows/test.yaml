@@ -9,6 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+      with:
+        repository: 'https://github.com/sudoshreyansh/Rovolang-Bot'
+    - uses: actions/checkout@v2
+      with:
+        repository: 'https://github.com/sudoshreyansh/infosec-notes'
     - name: Use Node.js 14
       uses: actions/setup-node@v2
       with:
