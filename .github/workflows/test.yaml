@@ -12,9 +12,6 @@ jobs:
     - uses: actions/checkout@v2
       with:
         repository: 'sudoshreyansh/Rovolang-Bot'
-    - uses: actions/checkout@v2
-      with:
-        repository: 'sudoshreyansh/infosec-notes'
     - name: Use Node.js 14
       uses: actions/setup-node@v2
       with:
